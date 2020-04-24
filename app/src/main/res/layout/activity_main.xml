@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/eti1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Componentes de Texto"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el documento"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el pass"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:gravity="top"
+        android:hint="Ingrese el texto"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="30dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:onClick="onclick"/>
+
+</LinearLayout>
